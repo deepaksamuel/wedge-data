@@ -1,0 +1,9 @@
+/score/create/boxMesh boxMesh_1 
+/score/mesh/boxSize 5 5 0.01 cm 
+/score/mesh/translate/xyz 0. 0. 20. cm 
+/score/mesh/nBin 50 50 1 
+/score/quantity/energyDeposit doseScorer 
+/score/close 
+/run/beamOn 100
+/score/drawProjection boxMesh_1 doseScorer
+/score/dumpQuantityToFile boxMesh_1 doseScorer test.txt

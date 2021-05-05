@@ -1,0 +1,8 @@
+/home/samuel/wedge-data/CMakeFiles/install/strip.dir
+/home/samuel/wedge-data/CMakeFiles/install/local.dir
+/home/samuel/wedge-data/CMakeFiles/install.dir
+/home/samuel/wedge-data/CMakeFiles/list_install_components.dir
+/home/samuel/wedge-data/CMakeFiles/rebuild_cache.dir
+/home/samuel/wedge-data/CMakeFiles/edit_cache.dir
+/home/samuel/wedge-data/CMakeFiles/B1.dir
+/home/samuel/wedge-data/CMakeFiles/exampleB1.dir
