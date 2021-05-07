@@ -99,9 +99,9 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
                       checkOverlaps);        //overlaps checking
                      
   //     
-  // Envelope
+  // Wedge
   //  
-  G4Trap* wedge = new G4Trap("wedge", 5*cm, 5*cm,bw*cm,tw*cm);
+  G4Trap* wedge = new G4Trap("wedge", 3*cm, 3*cm,bw*cm,tw*cm);
   G4RotationMatrix* rotationMatrix = new G4RotationMatrix();
   rotationMatrix->rotateY(90.*deg);
   G4LogicalVolume* logicWedge =
@@ -121,7 +121,7 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
    //     
   // Detector
   //  
-  G4Box* box = new G4Box("detector", 2.5*cm, 2.5*cm, 0.1*mm);
+  G4Box* box = new G4Box("detector", 1.5*cm, 1.5*cm, 0.1*mm);
   G4LogicalVolume* logicBox =
     new G4LogicalVolume(box,            //its solid
                         env_mat,             //its material

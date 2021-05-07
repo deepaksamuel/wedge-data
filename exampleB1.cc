@@ -164,7 +164,7 @@ int main(int argc,char** argv)
             UImanager->ApplyCommand("/score/create/boxMesh boxMesh_1");
             UImanager->ApplyCommand("/score/mesh/boxSize 1.5 1.5 0.01 cm");
             UImanager->ApplyCommand("/score/mesh/translate/xyz 0. 0. 20. cm");
-            UImanager->ApplyCommand("/score/mesh/nBin 50 50 1");
+            UImanager->ApplyCommand("/score/mesh/nBin 30 30 1");
             UImanager->ApplyCommand("/score/quantity/energyDeposit doseScorer");
             UImanager->ApplyCommand("/score/close");
 

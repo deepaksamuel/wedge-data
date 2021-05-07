@@ -1,7 +1,7 @@
 /score/create/boxMesh boxMesh_1 
-/score/mesh/boxSize 5 5 0.01 cm 
+/score/mesh/boxSize 1.5 1.5 0.01 cm 
 /score/mesh/translate/xyz 0. 0. 20. cm 
-/score/mesh/nBin 50 50 1 
+/score/mesh/nBin 30 30 1 
 /score/quantity/energyDeposit doseScorer 
 /score/close 
 /run/beamOn 100

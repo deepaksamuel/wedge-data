@@ -1,0 +1,73 @@
+/run/verbose 2
+/run/initialize 
+/run/physicsModified 
+/tracking/storeTrajectory 2
+/score/create/boxMesh boxMesh_1
+/score/mesh/boxSize 1.5 1.5 0.01 cm
+/score/mesh/translate/xyz 0. 0. 20. cm
+/score/mesh/nBin 30 30 1
+/score/quantity/energyDeposit doseScorer
+/score/close 
+/run/geometryModified 
+reate
+/vis/scene/add/volume world
+/vis/sceneHandler/attach
+/vis/viewer/set/viewpointVector -1 0 0
+/vis/viewer/set/lightsVector -1 0 0
+/vis/viewer/set/style wireframe
+/vis/viewer/set/auxiliaryEdge true
+/vis/viewer/set/lineSegmentsPerCircle 100
+/vis/scene/add/trajectories smooth
+/tracking/storeTrajectory 2
+/vis/scene/notifyHandlers
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/scene/notifyHandlers scene-0
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
+/vis/scene/notifyHandlers scene-0
+/vis/scene/endOfEventAction accumulate
+/vis/set/textColour green
+/vis/set/textLayout right
+/vis/scene/add/text2D 0.9 -.9 24 ! ! exampleB1
+/vis/scene/notifyHandlers
+/vis/set/textLayout
+/vis/set/textColour
+/vis/scene/add/scale
+/vis/scene/notifyHandlers
+/vis/scene/add/axes
+/vis/scene/notifyHandlers
+/vis/scene/add/eventID
+/vis/scene/notifyHandlers
+/vis/scene/add/date
+/vis/scene/notifyHandlers
+/vis/scene/add/logo2D
+/vis/scene/notifyHandlers
+/vis/scene/add/logo
+/vis/scene/notifyHandlers
+/vis/set/colour red
+/vis/set/lineWidth 2
+/vis/scene/add/frame
+/vis/scene/notifyHandlers
+/vis/set/colour
+/vis/set/lineWidth
+/vis/scene/add/text 0 6 -4 cm 18 4 4 Shape1
+/vis/scene/notifyHandlers
+/vis/scene/add/text 6 7 10 cm 18 4 4 Shape2
+/vis/scene/notifyHandlers
+/vis/geometry/set/visibility World 0 True
+/vis/scene/notifyHandlers
+/vis/viewer/set/autoRefresh true
+/vis/viewer/refresh
+/vis/verbose warnings
+/control/execute run-test.mac
+/score/create/boxMesh boxMesh_1
+/score/mesh/boxSize 1.5 1.5 0.01 cm
+/score/mesh/translate/xyz 0. 0. 20. cm
+/score/mesh/nBin 30 30 1
+/score/quantity/energyDeposit doseScorer
+/score/close
+/run/beamOn 100
+/run/geometryModified
+/vis/scene/notifyHandlers scene-0
+/score/drawProjection boxMesh_1 doseScorer
+/score/dumpQuantityToFile boxMesh_1 doseScorer test.txt
