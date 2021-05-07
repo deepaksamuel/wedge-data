@@ -162,7 +162,7 @@ int main(int argc,char** argv)
             UImanager->ApplyCommand("/event/verbose 0");
             UImanager->ApplyCommand("/track/verbose 0");
             UImanager->ApplyCommand("/score/create/boxMesh boxMesh_1");
-            UImanager->ApplyCommand("/score/mesh/boxSize 5 5 0.01 cm");
+            UImanager->ApplyCommand("/score/mesh/boxSize 1.5 1.5 0.01 cm");
             UImanager->ApplyCommand("/score/mesh/translate/xyz 0. 0. 20. cm");
             UImanager->ApplyCommand("/score/mesh/nBin 50 50 1");
             UImanager->ApplyCommand("/score/quantity/energyDeposit doseScorer");
@@ -172,7 +172,7 @@ int main(int argc,char** argv)
             beamOn.append(std::to_string(nevents));
             UImanager->ApplyCommand(beamOn);
             G4String str = "/score/dumpQuantityToFile boxMesh_1 doseScorer ";
-            str.append(std::to_string("data/");
+            //str.append(std::to_string("data/");
             str.append(std::to_string(energy)).append("-MEV-");
             str.append(std::to_string(nevents)).append("-EVTS-");
             str.append(std::to_string(top_width)).append("-TW-");
