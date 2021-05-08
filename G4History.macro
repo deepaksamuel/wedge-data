@@ -1,16 +1,16 @@
 /run/verbose 2
 /run/initialize 
 /run/physicsModified 
-/tracking/storeTrajectory 2
-/score/create/boxMesh boxMesh_1
-/score/mesh/boxSize 1.5 1.5 0.01 cm
-/score/mesh/translate/xyz 0. 0. 20. cm
-/score/mesh/nBin 30 30 1
-/score/quantity/energyDeposit doseScorer
-/score/close 
-/run/geometryModified 
-reate
-/vis/scene/add/volume world
+/control/execute vis.mac
+/vis/open OGL 600x600-0+0
+/vis/sceneHandler/create OGL
+/vis/viewer/create ! ! 600x600-0+0
+/vis/viewer/refresh
+/vis/viewer/set/autoRefresh false
+/vis/verbose errors
+/vis/drawVolume
+/vis/scene/create
+/vis/scene/add/volume world -1 -1 none m 0 0 0 0 0 0
 /vis/sceneHandler/attach
 /vis/viewer/set/viewpointVector -1 0 0
 /vis/viewer/set/lightsVector -1 0 0
@@ -59,15 +59,7 @@ reate
 /vis/viewer/set/autoRefresh true
 /vis/viewer/refresh
 /vis/verbose warnings
-/control/execute run-test.mac
-/score/create/boxMesh boxMesh_1
-/score/mesh/boxSize 1.5 1.5 0.01 cm
-/score/mesh/translate/xyz 0. 0. 20. cm
-/score/mesh/nBin 30 30 1
-/score/quantity/energyDeposit doseScorer
-/score/close
-/run/beamOn 100
-/run/geometryModified
-/vis/scene/notifyHandlers scene-0
-/score/drawProjection boxMesh_1 doseScorer
-/score/dumpQuantityToFile boxMesh_1 doseScorer test.txt
+/vis/set/touchable World 0
+/vis/set/touchable World 0
+/vis/set/touchable World 0
+/vis/set/touchable World 0
