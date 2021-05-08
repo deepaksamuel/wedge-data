@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samuel/wedge-data
+CMAKE_SOURCE_DIR = /home/samuel/software/GitHub/wedge-data
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samuel/wedge-data
+CMAKE_BINARY_DIR = /home/samuel/software/GitHub/wedge-data
 
 # Utility rule file for B1.
 
@@ -71,6 +71,6 @@ CMakeFiles/B1.dir/clean:
 .PHONY : CMakeFiles/B1.dir/clean
 
 CMakeFiles/B1.dir/depend:
-	cd /home/samuel/wedge-data && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samuel/wedge-data /home/samuel/wedge-data /home/samuel/wedge-data /home/samuel/wedge-data /home/samuel/wedge-data/CMakeFiles/B1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samuel/software/GitHub/wedge-data && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samuel/software/GitHub/wedge-data /home/samuel/software/GitHub/wedge-data /home/samuel/software/GitHub/wedge-data /home/samuel/software/GitHub/wedge-data /home/samuel/software/GitHub/wedge-data/CMakeFiles/B1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/B1.dir/depend
 

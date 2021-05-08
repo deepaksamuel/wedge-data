@@ -1,6 +1,6 @@
 import numpy as np
 
-nthreads = 1
+nthreads = 64
 min_E = 100
 max_E = 250
 step_E= 10

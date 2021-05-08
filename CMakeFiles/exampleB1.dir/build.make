@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samuel/wedge-data
+CMAKE_SOURCE_DIR = /home/samuel/software/GitHub/wedge-data
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samuel/wedge-data
+CMAKE_BINARY_DIR = /home/samuel/software/GitHub/wedge-data
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exampleB1.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/exampleB1.dir/flags.make
 
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: CMakeFiles/exampleB1.dir/flags.make
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: exampleB1.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleB1.dir/exampleB1.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/exampleB1.cc.o -c /home/samuel/wedge-data/exampleB1.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/software/GitHub/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleB1.dir/exampleB1.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/exampleB1.cc.o -c /home/samuel/software/GitHub/wedge-data/exampleB1.cc
 
 CMakeFiles/exampleB1.dir/exampleB1.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/exampleB1.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/wedge-data/exampleB1.cc > CMakeFiles/exampleB1.dir/exampleB1.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/software/GitHub/wedge-data/exampleB1.cc > CMakeFiles/exampleB1.dir/exampleB1.cc.i
 
 CMakeFiles/exampleB1.dir/exampleB1.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/exampleB1.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/wedge-data/exampleB1.cc -o CMakeFiles/exampleB1.dir/exampleB1.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/software/GitHub/wedge-data/exampleB1.cc -o CMakeFiles/exampleB1.dir/exampleB1.cc.s
 
 CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o: CMakeFiles/exampleB1.dir/flags.make
 CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o: src/B1ActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o -c /home/samuel/wedge-data/src/B1ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/software/GitHub/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o -c /home/samuel/software/GitHub/wedge-data/src/B1ActionInitialization.cc
 
 CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/wedge-data/src/B1ActionInitialization.cc > CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/software/GitHub/wedge-data/src/B1ActionInitialization.cc > CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.i
 
 CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/wedge-data/src/B1ActionInitialization.cc -o CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/software/GitHub/wedge-data/src/B1ActionInitialization.cc -o CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.s
 
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: CMakeFiles/exampleB1.dir/flags.make
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: src/B1DetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o -c /home/samuel/wedge-data/src/B1DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/software/GitHub/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o -c /home/samuel/software/GitHub/wedge-data/src/B1DetectorConstruction.cc
 
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/wedge-data/src/B1DetectorConstruction.cc > CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/software/GitHub/wedge-data/src/B1DetectorConstruction.cc > CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.i
 
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/wedge-data/src/B1DetectorConstruction.cc -o CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/software/GitHub/wedge-data/src/B1DetectorConstruction.cc -o CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.s
 
 CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
 CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o: src/B1EventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o -c /home/samuel/wedge-data/src/B1EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/software/GitHub/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o -c /home/samuel/software/GitHub/wedge-data/src/B1EventAction.cc
 
 CMakeFiles/exampleB1.dir/src/B1EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1EventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/wedge-data/src/B1EventAction.cc > CMakeFiles/exampleB1.dir/src/B1EventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/software/GitHub/wedge-data/src/B1EventAction.cc > CMakeFiles/exampleB1.dir/src/B1EventAction.cc.i
 
 CMakeFiles/exampleB1.dir/src/B1EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1EventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/wedge-data/src/B1EventAction.cc -o CMakeFiles/exampleB1.dir/src/B1EventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/software/GitHub/wedge-data/src/B1EventAction.cc -o CMakeFiles/exampleB1.dir/src/B1EventAction.cc.s
 
 CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
 CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o: src/B1PrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o -c /home/samuel/wedge-data/src/B1PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/software/GitHub/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o -c /home/samuel/software/GitHub/wedge-data/src/B1PrimaryGeneratorAction.cc
 
 CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/wedge-data/src/B1PrimaryGeneratorAction.cc > CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/software/GitHub/wedge-data/src/B1PrimaryGeneratorAction.cc > CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.i
 
 CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/wedge-data/src/B1PrimaryGeneratorAction.cc -o CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/software/GitHub/wedge-data/src/B1PrimaryGeneratorAction.cc -o CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.s
 
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: src/B1RunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o -c /home/samuel/wedge-data/src/B1RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/software/GitHub/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o -c /home/samuel/software/GitHub/wedge-data/src/B1RunAction.cc
 
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/wedge-data/src/B1RunAction.cc > CMakeFiles/exampleB1.dir/src/B1RunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/software/GitHub/wedge-data/src/B1RunAction.cc > CMakeFiles/exampleB1.dir/src/B1RunAction.cc.i
 
 CMakeFiles/exampleB1.dir/src/B1RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/wedge-data/src/B1RunAction.cc -o CMakeFiles/exampleB1.dir/src/B1RunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/software/GitHub/wedge-data/src/B1RunAction.cc -o CMakeFiles/exampleB1.dir/src/B1RunAction.cc.s
 
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: src/B1SteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o -c /home/samuel/wedge-data/src/B1SteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samuel/software/GitHub/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o -c /home/samuel/software/GitHub/wedge-data/src/B1SteppingAction.cc
 
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/wedge-data/src/B1SteppingAction.cc > CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samuel/software/GitHub/wedge-data/src/B1SteppingAction.cc > CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.i
 
 CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/wedge-data/src/B1SteppingAction.cc -o CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samuel/software/GitHub/wedge-data/src/B1SteppingAction.cc -o CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.s
 
 # Object files for target exampleB1
 exampleB1_OBJECTS = \
@@ -169,53 +169,54 @@ exampleB1: CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/build.make
-exampleB1: /home/samuel/g4/g4-install/lib/libG4Tree.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4GMocren.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4visHepRep.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4RayTracer.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4VRML.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4OpenGL.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4gl2ps.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4interfaces.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4persistency.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4analysis.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4error_propagation.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4readout.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4physicslists.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4parmodels.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4FR.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4vis_management.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4modeling.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4Tree.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4FR.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4GMocren.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4visHepRep.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4RayTracer.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4VRML.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4OpenGL.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4gl2ps.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4vis_management.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4modeling.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4interfaces.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4persistency.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4error_propagation.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4readout.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4physicslists.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4tasking.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4parmodels.so
 exampleB1: /usr/lib/x86_64-linux-gnu/libGL.so
-exampleB1: /usr/lib/x86_64-linux-gnu/libGLU.so
-exampleB1: /usr/lib/x86_64-linux-gnu/libSM.so
-exampleB1: /usr/lib/x86_64-linux-gnu/libICE.so
-exampleB1: /usr/lib/x86_64-linux-gnu/libX11.so
-exampleB1: /usr/lib/x86_64-linux-gnu/libXext.so
+exampleB1: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.14.2
+exampleB1: /usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.14.2
+exampleB1: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.14.2
+exampleB1: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.14.2
+exampleB1: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.14.2
 exampleB1: /usr/lib/x86_64-linux-gnu/libXmu.so
-exampleB1: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.12.8
-exampleB1: /usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.12.8
-exampleB1: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-exampleB1: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
-exampleB1: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-exampleB1: /usr/lib/x86_64-linux-gnu/libfreetype.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4run.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4event.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4tracking.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4processes.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4zlib.so
+exampleB1: /usr/lib/x86_64-linux-gnu/libXext.so
+exampleB1: /usr/lib/x86_64-linux-gnu/libXt.so
+exampleB1: /usr/lib/x86_64-linux-gnu/libICE.so
+exampleB1: /usr/lib/x86_64-linux-gnu/libSM.so
+exampleB1: /usr/lib/x86_64-linux-gnu/libX11.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4run.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4event.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4tracking.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4processes.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4analysis.so
 exampleB1: /usr/lib/x86_64-linux-gnu/libexpat.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4digits_hits.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4track.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4particles.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4geometry.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4materials.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4graphics_reps.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4intercoms.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4global.so
-exampleB1: /home/samuel/g4/g4-install/lib/libG4clhep.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4digits_hits.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4track.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4particles.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4geometry.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4materials.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4zlib.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4graphics_reps.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4intercoms.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4global.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4clhep.so
+exampleB1: /home/samuel/software/g4-install/lib/libG4ptl.so.0.0.2
 exampleB1: CMakeFiles/exampleB1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samuel/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable exampleB1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samuel/software/GitHub/wedge-data/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable exampleB1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exampleB1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -228,6 +229,6 @@ CMakeFiles/exampleB1.dir/clean:
 .PHONY : CMakeFiles/exampleB1.dir/clean
 
 CMakeFiles/exampleB1.dir/depend:
-	cd /home/samuel/wedge-data && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samuel/wedge-data /home/samuel/wedge-data /home/samuel/wedge-data /home/samuel/wedge-data /home/samuel/wedge-data/CMakeFiles/exampleB1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samuel/software/GitHub/wedge-data && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samuel/software/GitHub/wedge-data /home/samuel/software/GitHub/wedge-data /home/samuel/software/GitHub/wedge-data /home/samuel/software/GitHub/wedge-data /home/samuel/software/GitHub/wedge-data/CMakeFiles/exampleB1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/exampleB1.dir/depend
 
