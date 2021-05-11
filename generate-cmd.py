@@ -4,11 +4,11 @@ nthreads = 64
 min_E = 100
 max_E = 250
 step_E= 10
-nevents= 100000
+nevents= 1000000
 
 min_tw= 0.1
 max_bw= 26
-w_step= 0.1
+w_step= 25
 
 f = open("cmds", "w")
 i=0
