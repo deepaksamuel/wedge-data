@@ -13,7 +13,7 @@ tw = 0.1 # cm
 bw= 25 # cm
 
 
-f = open("single-wedge-cmds", "w")
+f = open("../single-wedge-cmds", "w")
 i=0
 
 for E in np.arange(min_E, max_E+step_E, step_E):

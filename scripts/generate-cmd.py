@@ -10,7 +10,7 @@ min_tw= 0.1
 max_bw= 26
 w_step= 25
 
-f = open("cmds", "w")
+f = open("../cmds", "w")
 i=0
 for tw in np.arange(min_tw,max_bw+w_step,w_step):
     for bw in np.arange(tw, max_bw+w_step, w_step):
