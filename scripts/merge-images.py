@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from PIL import Image as im
 
 
-fname =  "../data/100.000000-MEV-100000-EVTS-0.100000-TW-26.000000-BW.txt"
+
 
 def get_widths(file):
     s=file.split("-")
@@ -21,17 +21,21 @@ def get_map(tw, bw, lenx=3, leny=3):
             img.append(tw + slope*y/10)
     return np.reshape(img, (30, 30))
 
-
+#%%
+fname = "../data/100.000000-MEV-100000-EVTS-0.300000-TW-2.200000-BW.txt"
 data = pd.read_csv(fname,skiprows=3,names=["x","y","z","dose","dose2","counts"],header=None)
-arr1=np.array(data["counts"])
+arr1=np.array(data["dose"])
 arr2 = np.reshape(arr1, (30, 30))
-plt.imshow(arr2)
-plt.colorbar()
+plt.plot(arr1)
 plt.show()
-tw,bw=get_widths(fname)
-m=get_map(tw,bw)
-plt.imshow(m)
-plt.colorbar()
+# plt.imshow(arr2)
+# plt.colorbar()
+# plt.show()
+# tw,bw=get_widths(fname)
+
+# m=get_map(tw,bw)
+# plt.imshow(m)
+# plt.colorbar()
 
 
 
