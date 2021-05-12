@@ -50,6 +50,16 @@
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
+// without the help of this function, file name will contain unnecessary significant digits
+template <typename T>
+std::string to_string_with_precision(const T a_value, const int n = 6)
+{
+    std::ostringstream out;
+    out.precision(n);
+    out << std::fixed << a_value;
+    return out.str();
+}
+
 int main(int argc,char** argv)
 {
 
@@ -173,10 +183,10 @@ int main(int argc,char** argv)
             UImanager->ApplyCommand(beamOn);
             G4String str = "/score/dumpQuantityToFile boxMesh_1 doseScorer ";
             //str.append(std::to_string("data/");
-            str.append(std::to_string(energy)).append("-MEV-");
+            str.append(to_string_with_precision(energy,1)).append("-MEV-");
             str.append(std::to_string(nevents)).append("-EVTS-");
-            str.append(std::to_string(top_width)).append("-TW-");
-            str.append(std::to_string(bot_width)).append("-BW.txt");
+            str.append(to_string_with_precision(top_width,1)).append("-TW-");
+            str.append(to_string_with_precision(bot_width,1)).append("-BW.txt");
             UImanager->ApplyCommand(str);
         }
         else {
