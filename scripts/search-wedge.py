@@ -1,4 +1,4 @@
-# search for files with the same wedge dimensions
+# search for files with the same wedge dimensions and plot the ERDF
 #%%
 import matplotlib.pyplot as plt
 import numpy as np
@@ -6,16 +6,22 @@ import pandas as pd
 import os
 
 
-data_dir = "../wedge-data-10000000" # the folder containing all the depth-dose data
-
+data_dir = "../data-single-wedge" # the folder containing all the depth-dose data
+colnames=['x', 'y', 'z', 'd', 'd2','n']
+colnames_merged=['Energy','Position','Dose']
+e =[]
 files =[]
 f =[]
 for file in os.listdir(data_dir):
-    filename = os.fsdecode(file)
-    str = filename.split("EVTS-")
-    files.append("{}/{}".format(data_dir,filename))
-    f.append(str[1])
+    if "-EVTS-" in file:
+        filename = os.fsdecode(file)
+        str = filename.split("EVTS-")
+        files.append("{}/{}".format(data_dir,filename))
+        print(filename)
+        f.append(str[1])
 
+
+print(f)
 unique_dims = np.unique(f)
 
 # now unique_dims has the list unique wedge dimensions in the data dir
@@ -24,7 +30,7 @@ unique_dims = np.unique(f)
 wedge_files =[]
 
 for ff in files:
-    if unique_dims[1] in ff:
+    if unique_dims[0] in ff:
         wedge_files.append(ff)
 # wedge files contain all files with the same wedge dimension
 print(wedge_files)
