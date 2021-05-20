@@ -44,5 +44,8 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "/home/samuel/anaconda3/envs/samuel/bin/python",
+    "jupyter.jupyterServerType": "remote"
 }
