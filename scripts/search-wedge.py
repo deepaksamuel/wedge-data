@@ -7,7 +7,7 @@ import pandas as pd
 import os
 from PIL import Image
 
-print(pd.__version__)
+
 data_dir = "../wedge-data-1000000-2cm" # the folder containing all the depth-dose data
 #dim_indx = 7 # use this to go to another dimension file
 
@@ -81,25 +81,25 @@ for dims in unique_dims:
         erdf.append(sw/sd)    # formula for ERDF: Sig EiDi/Sig Di
 
     df_merged['erdf'] = erdf
-    df_merged.to_excel("{}.xlsx".format(dims))
+    #df_merged.to_excel("{}/xls/{}.xlsx".format(data_dir,dims))
 
     # verification formula
     # =$D$1*D2+$E$1*E2+$F$1*F2+$G$1*G2+$H$1*H2+$I$1*I2+$J$1*J2+$K$1*K2+$L$1*L2+$M$1*M2+$N$1*N2+$O$1*O2+$P$1*P2 + $Q$1*Q2 +$R$1*R2 + $S$1*S2
 
     print("Wedge image for {}".format(dims))
     erdf_image = np.reshape(erdf, (20, 20))
-    plt.imshow(erdf_image, cmap='hot')
-    plt.colorbar()
-    plt.show()
-    # im = Image.fromarray(np.reshape(erdf, (20, 20)))
-    # im.save("out.jpeg")
-    plt.imsave("{}.png".format(dims), erdf_image)
-    ii =ii+1
-    png_data=plt.imread("{}.png".format(dims))
-    print(png_data)
-    if(ii==1):
-        break
-#%%
+    # plt.imshow(erdf_image, cmap='hot')
+    # plt.colorbar()
+    # plt.show()
+    im = Image.fromarray(np.reshape(erdf_image, (20, 20)))
+    im = im.convert("L")
+    im.save("{}/img/{}.png".format(data_dir,dims))
+    # plt.imsave("{}/img/{}.png".format(data_dir,dims), erdf_image)
+    # ii =ii+1
+    # png_data=plt.imread("{}.png".format(dims))
+    # print(png_data)
+
+
 
 
 

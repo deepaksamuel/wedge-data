@@ -46,6 +46,6 @@
         "typeinfo": "cpp"
     },
     "git.ignoreLimitWarning": true,
-    "python.pythonPath": "/home/samuel/anaconda3/envs/samuel/bin/python",
-    "jupyter.jupyterServerType": "remote"
+    "python.pythonPath": "/usr/bin/python3",
+    "jupyter.jupyterServerType": "local"
 }
