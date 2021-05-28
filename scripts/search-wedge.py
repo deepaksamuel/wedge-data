@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 import os
 from PIL import Image
+import cv2
 
 
 data_dir = "../wedge-data-1000000-2cm" # the folder containing all the depth-dose data
@@ -88,14 +89,20 @@ for dims in unique_dims:
 
     print("Wedge image for {}".format(dims))
     erdf_image = np.reshape(erdf, (20, 20))
+    #erdf_image = np.zeros((20,20,3),np.uint8)
+
+    
     # plt.imshow(erdf_image, cmap='hot')
     # plt.colorbar()
     # plt.show()
-    im = Image.fromarray(np.reshape(erdf_image, (20, 20)))
-    im = im.convert("L")
-    im.save("{}/img/{}.png".format(data_dir,dims))
+    # im = Image.fromarray(np.reshape(erdf_image, (20, 20)))
+    # im = im.convert("L")
+    # im.save("{}/img/{}.png".format(data_dir,dims))
+    cv2.imwrite("{}/img/{}.png".format(data_dir,dims),erdf_image)
     # plt.imsave("{}/img/{}.png".format(data_dir,dims), erdf_image)
-    # ii =ii+1
+    ii =ii+1
+    # if ii==1:
+    #     break
     # png_data=plt.imread("{}.png".format(dims))
     # print(png_data)
 
